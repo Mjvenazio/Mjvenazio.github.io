@@ -3,10 +3,12 @@ body {
   }
   
   h1 {
-    color: white;
+    color: slateblue;
     margin-left: 100px;
   }
   p {
-      color: white;
+      color: slateblue;
       margin-left: 20px;
   }
+ p.solid {border-style: solid;}
+  
