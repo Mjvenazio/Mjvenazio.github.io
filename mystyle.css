@@ -1,0 +1,12 @@
+body {
+    background-image: url("original.gif");
+  }
+  
+  h1 {
+    color: white;
+    margin-left: 100px;
+  }
+  p {
+      color: white;
+      margin-left: 20px;
+  }
