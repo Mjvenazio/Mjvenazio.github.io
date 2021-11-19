@@ -2,19 +2,83 @@
 <html>
 <head>
     <meta charset=utf-8>
-    <title>The Endless space</title>
+    <title>The Infinite</title>
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+body {
+    margin: 0; 
+}
+/* Stlye the header*/
+.header {
+    background-color: black;
+    padding: 100px;
+    text-align: center;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
 </head>
 
 
 <body>
-
-
-    <h1>This is the Endless Space</h1>
-    <p class= "solid">Welcome to the Endless Space website. Here you can discuss you questions about Spcae with others and gives answers to others.</p>
+<div class="header">
+    <h1>This is the Infinite</h1>
+</div>
+<div class="topnav">
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+  </div>
+  
+  <div class="row">
+    <div class="column">
+      <h2>Column</h2>
+      <p class= "solid">Welcome to the Endless Space website. Here you can discuss you questions about Spcae with others and gives answers to others.</p>
+      </div>
 
     <p class="solid"> Let the Questions begin!</p>
 
 </body>
+
 
 </html>
